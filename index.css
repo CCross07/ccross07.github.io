@@ -1,0 +1,40 @@
+body{
+    background-image: url("background.jpg");
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#me{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+}
+
+table{
+    table-layout: fixed;
+    border: 0;
+    width: 80%;
+    align-content: center;
+}
+
+a:hover{
+    color: red;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: lightgreen;
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}
